@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link rel="stylesheet" href="https://pyscript.net/releases/2025.8.1/core.css" />
+    <script type="module" src="https://pyscript.net/releases/2025.8.1/core.js"></script>
+    <href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Intramurals Sign Up</title>
+    <style type="text/css">
+
+        body{
+            background-image: url(BACKGROUND\ IMAGE.png);
+            background-color: palevioletred;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+
+         .yvette{
+    background-color: rgb(255, 253, 235);
+    width: 500px;
+    height: 400px;
+    padding: 0px;
+    border: 5px dashed #9176b1;
+    box-shadow: 5px 5px 5px rgb(183, 157, 191);
+    }
+
+        .swan{
+            font-family: comic sans-serif;
+            margin-top: 125px;
+        }
+
+         ul{
+    list-style-type: none;
+    margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #feafc3;
+}
+
+         ul li{
+  float: left;
+}
+
+         ul li a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+         ul li a:hover{
+  background-color: #fda8cd;
+}
+
+    </style>
+</head>
+<body>
+    <nav class="navbar-expand-md bg-black navbar-black fixed-top">
+    <!-- Brand/Logo -->
+<div class="container-fluid">
+    <a class="navbar-brand" href="proj.html"></a>
+</div>
+    <!-- Add Links -->
+<div class="collapse navbar-collapse">
+    <ul class="navbar-nav me-auto">
+        <li class="nav-item">
+            <a class="nav-link" href="proj.html" style="color: #eeeeee;">Sign Up⋆˚✿˖°</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="index2.html" style="color: #fbfbfb;">Team Checker⋆˚✿˖°</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="index3.html" style="color: #f6f6f6;">Players⋆˚✿˖°</a>
+        </li>
+    </ul>
+    <!-- Add a search bar -->
+    <form class="d-flex">
+        <input class="form-control" text="text" placeholder="search...">
+        <button class="btn btn-warning" type="button">Search</button>
+    </form>
+</div>
+</div>
+</nav>
+<center>
+    <img src="pagee-removebg-preview.png">
+<div class="yvette" >
+    <div class="swan">
+    <h3 class="text-center mb-4" style="color: #b28ac8;">⋆. 𐙚˚࿔ Create Account 𝜗𝜚˚⋆</h3>
+<h3 class="text-center mb-4"style="color: #b28ac8;">⏔⏔⏔ ꒰ ᧔ෆ᧓ ꒱ ⏔⏔⏔</h3>
+    <form>
+        <div class="mb-3">
+            <input type="text" id="username" class="form-control" placeholder="Please Enter Your Username">
+        </div>
+
+        <div class="mb-3">
+            <input type="text" id="password" class="form-control" placeholder="Please Enter Your Password">
+        </div>
+
+
+        <div class="d-grid">
+            <input type="button" py-click="account_creation" value="Sign Up" class="btn btn signup">
+        </div>
+    </form>
+
+    <div id="output" class="mt-3 text-center"></div>
+    <script type="py" src="proj.py"></script>
+    </div>
+</div>
+</center>    
+</body>
+</html>
